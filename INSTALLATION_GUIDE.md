@@ -28,6 +28,7 @@ sudo apt install libdumbnet-dev libpcap-dev libevent-dev
 5.**Create a Basic Configuration File**:
 Open a new file in your preferred text editor to set up a basic configuration:
 ```bash
+sudo mkdir -p /etc/honeyd
 sudo nano /etc/honeyd/honeyd.conf
 ```
 .Add a basic honeypot configuration:
